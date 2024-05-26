@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo icon website -->
+    <link rel="icon" href="./favicon-32x32.png">
+    <!-- meta tags -->
+    <title>News homepage</title>
+    <meta name="title" content="News homepage">
+    <meta name="description" content="this is News homepage">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <!-- #OVERFLOW -->
+    <div class="overflow" data-overflow></div>
+
+    <!-- #HEADER -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="logo">
+        </a>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">New</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Popular</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Trending</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Categories</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-menu" data-menu-on>
+          <img src="./assets/images/icon-menu.svg" alt="icon-menu">
+        </button>
+      </div>
+    </header>
+
+    <!-- #ASIDE -->
+    <aside class="aside" data-aside>
+      <button class="title-aside btn-menu" data-menu-off>
+        <img src="./assets/images/icon-menu-close.svg" alt="icon-menu-close">
+      </button>
+
+      <ul class="aside-list">
+        <li class="aside-item">
+          <a href="#" class="aside-link">Home</a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">New</a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">Popular</a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">Trending</a>
+        </li>
+        <li class="aside-item">
+          <a href="#" class="aside-link">Categories</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <article>
+        <!-- #HERO ALL -->
+        <div class="hero-all">
+          <div class="container">
+            <div class="hero">
+              <figure>
+                <img src="./assets/images/image-web-3-mobile.jpg" class="img-mobile img-cover" loading="lazy" alt="image-web-3-mobil">
+                <img src="./assets/images/image-web-3-desktop.jpg" class="img-desktop img-cover" loading="lazy" alt="image-web-3-desktop">
+              </figure>
+
+              <div class="hero-content">
+                <h1 class="title">The Bright Future of Web 3.0?</h1>
+
+                <div class="content">
+                  <p class="paragraph">
+                    We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?
+                  </p>
+
+                  <button class="btn-primary">
+                    <span>Read more</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside-box">
+              <h1 class="aside-box-title">New</h1>
+
+              <div class="box-item border">
+                <h2>Hydrogen VS Electric Cars</h2>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </div>
+
+              <div class="box-item border">
+                <h2>The Downsides of AI Artistry</h2>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+              </div>
+
+              <div class="box-item">
+                <h2>Is VC Funding Drying Up?</h2>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- #BOXS LIST -->
+        <section class="boxs-list section">
+          <div class="container">
+            <ul class="box-list">
+              <li class="box">
+                <img src="./assets/images/image-retro-pcs.jpg" loading="lazy" alt="image-retro-pcs">
+                <div class="box-content">
+                  <h1>01</h1>
+                  <h2>Reviving Retro PCs</h2>
+                  <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+              </li>
+
+              <li class="box">
+                <img src="./assets/images/image-top-laptops.jpg" class="img-cover" loading="lazy" alt="image-retro-pcs">
+                <div class="box-content">
+                  <h1>02</h1>
+                  <h2>Top 10 Laptops of 2022</h2>
+                  <p>Our best picks for various needs and budgets.</p>
+                </div>
+              </li>
+
+              <li class="box">
+                <img src="./assets/images/image-gaming-growth.jpg" class="img-cover" loading="lazy" alt="image-retro-pcs">
+                <div class="box-content">
+                  <h1>03</h1>
+                  <h2>The Growth of Gaming</h2>
+                  <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
